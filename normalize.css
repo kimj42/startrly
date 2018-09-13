@@ -95,12 +95,57 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+.intro {
+
+}
+
 
 a {
   background-color: transparent;
   font-family: monospace, monospace; /* 1 */
   font-size: 1.5em;
+  border-radius: 10px;
+  border-color: skyblue;
+  position: relative;
+  left: 38%;
+  padding: 1em;
+
 }
+
+blockquote::before {
+  content: "\"";
+}
+
+blockquote::after {
+  content: "\"";
+}
+
+.quote {
+  /* display: flexbox; */
+  margin-left: 6em;
+  margin-right: 4em;
+  margin-top: 1em;
+  height: 9vh;
+  font-size: 2em;
+
+  /* display: grid;
+  width: 36vw;
+  height: 5vh;
+  grid-area: 3;
+  margin-left: 28em;
+  margin-top: 15em; */
+}
+
+.sizing {
+  display: grid;
+  height: 80vh;
+  margin-top: 10em;
+  border-top-color: forestgreen;
+  padding-top: 1em;
+}
+
+
+
 
 /**
  * 1. Remove the bottom border in Chrome 57-
