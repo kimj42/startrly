@@ -8,35 +8,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- * {
-   border: solid red 2px;
- }
-
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-.header  {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#one {
-  position: relative;
-  right: 150px;
-}
-
-#two {
-  position: relative;
-  left: 400px;
-}
-
-#three {
-  position: relative;
-  left: 100px;
 }
 
 /* Sections
@@ -56,14 +30,9 @@ body {
  */
 
 h1 {
-  font-size: 8em;
-  font-weight: bold;
+  font-size: 2em;
   margin: 0.67em 0;
-  display: flex;
-  justify-content: center;
 }
-
-
 
 /* Grouping content
    ========================================================================== */
@@ -95,65 +64,10 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-.intro {
-
-}
-
 
 a {
   background-color: transparent;
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1.5em;
-  border-radius: 10px;
-  border-color: skyblue;
-  position: relative;
-  left: 38%;
-  padding: 1em;
-
 }
-
-blockquote::before {
-  content: "\"";
-}
-
-blockquote::after {
-  content: "\"";
-}
-
-.quote {
-  /* display: flexbox; */
-  margin-left: 6em;
-  margin-right: 4em;
-  margin-top: 1em;
-  height: 9vh;
-  font-size: 2em;
-
-  /* display: grid;
-  width: 36vw;
-  height: 5vh;
-  grid-area: 3;
-  margin-left: 28em;
-  margin-top: 15em; */
-}
-
-.author::before {
-  content: "--";
-}
-.author {
-  
-}
-
-
-.sizing {
-  display: grid;
-  height: 80vh;
-  margin-top: 10em;
-  border-top-color: forestgreen;
-  padding-top: 1em;
-}
-
-
-
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -202,21 +116,18 @@ small {
 
 sub,
 sup {
-  font-size: 200%;
-  font-weight: bold;
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
-  display: flex;
-  justify-content: center;
 }
 
 sub {
-  bottom: 2.7em;
+  bottom: -0.25em;
 }
 
 sup {
-  top: -1em;
+  top: -0.5em;
 }
 
 /* Embedded content
