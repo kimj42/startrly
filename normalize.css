@@ -136,6 +136,14 @@ blockquote::after {
   margin-top: 15em; */
 }
 
+.author::before {
+  content: "--";
+}
+.author {
+  
+}
+
+
 .sizing {
   display: grid;
   height: 80vh;
