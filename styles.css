@@ -87,6 +87,7 @@ blockquote::after {
   border-top-color: forestgreen;
   padding-top: 1em;
   border-top: solid 2px;
+  
 }
 
 .tagline {
