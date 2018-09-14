@@ -111,15 +111,57 @@ h2 {
   justify-content: center;
   list-style: none;
   height: 21vh;
-  padding-right: 3em;
+  padding-right: 7em;
+  padding-top: 4em;
 }
 
 .strong {
   vertical-align: top;
+  grid-column-start: 6;
+  max-width: 10em;
+  max-height: 1em;
+  grid-row-start: 1;
 }
 
 .p {
+  grid-row-start: 2;
+  grid-column-start: 6;
+  grid-column-end: 12;
+
+}
+
+.strong-a {
   vertical-align: top;
+  grid-column-start: 5;
+  max-width: 10em;
+  max-height: 1em;
+  grid-row-start: 1;
+}
+
+.c {
+  grid-row-start: 2;
+  grid-column-start: 5;
+  grid-column-end: 11;
+}
+
+.strong-b {
+  vertical-align: top;
+  grid-column-start: 13;
+  max-width: 10em;
+  max-height: 1em;
+  grid-row-start: 1;
+}
+
+.b {
+  grid-row-start: 2;
+  grid-column-start: 13;
+  grid-column-end: 20;
+}
+.area {
+  display: grid;
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
 .about {
