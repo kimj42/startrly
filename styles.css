@@ -105,3 +105,10 @@ blockquote::after {
   font-size: 200%;
   font-weight: bold;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
