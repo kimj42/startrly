@@ -121,3 +121,22 @@ h2 {
 .p {
   vertical-align: top;
 }
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border-top-color: forestgreen;
+  border-top: solid 2px;
+}
+
+.list {
+  margin-right: 5em;
+  margin-left: 5em;
+  list-style: none;
+}
+
+h3 {
+  margin-right: 6.5em;
+  margin-left: 6.5em;
+}
