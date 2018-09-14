@@ -89,19 +89,16 @@ nav ul :first-child {
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
   text-align: left;
   padding: 1%;
-  float:left;
+
 }
 
 #content img {
   height: 100px;
   width: 100px;
   float: left;
-  padding-right: 1%;
-
+  padding-right: 1% 1% 0 0;
 
 }
 
