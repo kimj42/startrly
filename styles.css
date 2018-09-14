@@ -104,6 +104,7 @@ h2 {
   justify-content: center;
   font-size: 200%;
   font-weight: bold;
+  padding-top: 2em;
 }
 
 .row {
@@ -182,39 +183,40 @@ h2 {
 h3 {
   margin-right: 6.5em;
   margin-left: 6.5em;
-  border-top-color: forestgreen;
-  border-top: solid 2px;
+  /* border-top-color: forestgreen;
+  border-top: solid 2px; */
 }
 
 .area-a {
   display: grid;
   grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
-  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+  grid-template-rows: 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 10% 3% 3% 3% 3% 3% ;
   list-style: none;
+  padding-top: 3em;
 }
 
 #pic1 {
   grid-row-start: 1;
   grid-column-start: 4;
-  grid-column-end: 8;
+  grid-column-end: 5;
 }
 
 #pic2 {
   grid-row-start: 1;
   grid-column-start: 10;
-  grid-column-end: 13;
+  grid-column-end: 12;
 }
 
 #pic3 {
   grid-row-start: 1;
   grid-column-start: 15;
-  grid-column-end: 19;
+  grid-column-end: 17;
 }
 
 #pic4 {
   grid-row-start: 2;
   grid-column-start: 7;
-  grid-column-end: 10;
+  grid-column-end: 9;
 }
 
 #pic5 {
@@ -226,4 +228,45 @@ h3 {
 #img1 {
   border-radius: 100% 100% 100% 100%;
   border: thick double #32a1ce;
+}
+
+#sp {
+  padding-top: 3em;
+}
+
+.area-b {
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+  grid-template-rows: 3% 3% 3% 3% 3% 3% 3% 3% 3% 3% 10% 3% 3% 3% 3% 3% ;
+  list-style: none;
+}
+
+#box1 {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#box2 {
+  grid-row-start: 1;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+
+#box3 {
+  grid-row-start: 1;
+  grid-column-start: 11;
+  grid-column-end: 15;
+}
+
+#box4 {
+  grid-row-start: 1;
+  grid-column-start: 16;
+  grid-column-end: 18;
+}
+
+#box5 {
+  grid-row-start: 2;
+  grid-column-start: 9;
+  grid-column-end: 15;
 }
