@@ -1,6 +1,9 @@
-/* * {
-  border: solid red 2px;
-} */
+
+.intro {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: pink;
+}
 
 .header  {
   list-style: none;
@@ -19,6 +22,7 @@ a {
   position: relative;
   left: 38%;
   padding: 1em;
+  color: white;
 }
 
 h1 {
@@ -28,11 +32,14 @@ h1 {
   height: 10vh;
   display: flex;
   justify-content: center;
+  font-family: 'Gamja Flower', cursive;
+  color: white;
 }
 
 #one {
   position: relative;
   right: 150px;
+
 }
 
 #two {
@@ -97,6 +104,7 @@ blockquote::after {
   display: flex;
   justify-content: center;
   height: 10vh;
+  color: white;
 }
 
 h2 {
