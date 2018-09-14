@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid red 2px;
-}
+} */
 
 .header  {
   list-style: none;
@@ -111,7 +111,8 @@ h2 {
   justify-content: center;
   list-style: none;
   height: 21vh;
-  padding-right: 7em;
+  padding-right: 5em;
+  padding-left: 5em;
   padding-top: 4em;
 }
 
@@ -159,9 +160,9 @@ h2 {
 }
 .area {
   display: grid;
-  display: grid;
   grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5%;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  list-style: none;
 }
 
 .about {
@@ -181,4 +182,48 @@ h2 {
 h3 {
   margin-right: 6.5em;
   margin-left: 6.5em;
+  border-top-color: forestgreen;
+  border-top: solid 2px;
+}
+
+.area-a {
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+  list-style: none;
+}
+
+#pic1 {
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+#pic2 {
+  grid-row-start: 1;
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+
+#pic3 {
+  grid-row-start: 1;
+  grid-column-start: 15;
+  grid-column-end: 19;
+}
+
+#pic4 {
+  grid-row-start: 2;
+  grid-column-start: 7;
+  grid-column-end: 10;
+}
+
+#pic5 {
+  grid-row-start: 2;
+  grid-column-start: 13;
+  grid-column-end: 15;
+}
+
+#img1 {
+  border-radius: 100% 100% 100% 100%;
+  border: thick double #32a1ce;
 }
