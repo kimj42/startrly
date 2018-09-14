@@ -111,15 +111,13 @@ h2 {
   justify-content: center;
   list-style: none;
   height: 21vh;
+  padding-right: 3em;
 }
 
-.li {
-
-}
 .strong {
   vertical-align: top;
 }
 
 .p {
-  vertical-align: text-top;
+  vertical-align: top;
 }
